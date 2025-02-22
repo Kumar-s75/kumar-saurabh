@@ -1,0 +1,8 @@
+{
+    "build": {
+      "env": {
+        "NEXT_BUILD_CACHE": "false"
+      }
+    }
+  }
+  

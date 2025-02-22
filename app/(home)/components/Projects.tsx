@@ -3,7 +3,7 @@ import { SiNextdotjs, SiReactquery, SiSupabase, SiTailwindcss } from 'react-icon
 import Title from './Title'
 import Link from 'next/link'
 import { DirectionAwareHover } from './ui/direction-aware-hover'
-import { cn } from '@/lib/utils'
+import { cn } from 'lib/utils'
 import { StarsBackground } from './ui/stars-background'
 export default function Projects() {
 

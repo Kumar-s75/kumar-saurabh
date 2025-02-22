@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import Footer from './components/Footer'
 
 
+
 export default function page() {
   return (
     <div className='min-h-screen bg-black overflow:hidden'>

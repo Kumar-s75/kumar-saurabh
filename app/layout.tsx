@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
+import { ThemeProvider } from "../components/theme-provider";
 
 const spaceGrotesk  = Space_Grotesk ({ subsets: ["latin"] });
 
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Kumar Saurabh",
 		description:
-			"Based in India, I'm a FullStack developer passionate about building a modern web application that users love and integratee xcitin features in it.",
+			"Based in India, I'm a FullStack developer passionate about building a modern web application that users love and integrate exciting features in it.",
 		url: "https://next-supabase-vote.vercel.app/",
 		siteName: "Kumar Saurabh",
 		images: "/og.png",
