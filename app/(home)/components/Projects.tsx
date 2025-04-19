@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiNextdotjs, SiReactquery, SiSupabase, SiTailwindcss } from 'react-icons/si'
+import { SiClerk, SiMongodb, SiNextdotjs, SiNodedotjs, SiPostgresql, SiPrisma, SiReact, SiReactquery, SiShadcnui, SiSupabase, SiTailwindcss, SiTypescript } from 'react-icons/si'
 import Title from './Title'
 import Link from 'next/link'
 import { DirectionAwareHover } from './ui/direction-aware-hover'
@@ -9,16 +9,16 @@ export default function Projects() {
 
 const projects=[
     {
-        title:":E-Learning Platform (onlydekh)",
-        tech:[SiNextdotjs,SiReactquery,SiSupabase,SiTailwindcss],
-        Link:"",
+        title:" Second-Brain-app",
+        tech:[SiReact,SiTailwindcss,SiNodedotjs,SiShadcnui,SiTypescript,SiMongodb],
+        Link:"https://second-brain-frontend-two.vercel.app/",
         cover:"",
         background:"bg-indigo-500",
     },
     {
-        title:":E-Learning Platform (onlydekh)",
-        tech:[SiNextdotjs,SiReactquery,SiSupabase,SiTailwindcss],
-        Link:"",
+        title:"Ai-Image-App",
+        tech:[SiNextdotjs,SiClerk,SiPostgresql,SiPrisma,SiTypescript,SiTailwindcss],
+        Link:"https://ai-image-weld.vercel.app/",
         cover:"",
         background:"bg-green-500",
     }
